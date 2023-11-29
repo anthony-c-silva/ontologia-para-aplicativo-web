@@ -1,0 +1,1943 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tony/ontologies/2023/10/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tony/ontologies/2023/10/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/tony/ontologies/2023/10/untitled-ontology-8/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funcionalidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguagem_De_Programacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medida_De_Seguranca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metrica_De_Desempenho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organização"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_De_Desempenho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_De_Seguranca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_Tecnico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Desenvolvido_Em"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Fornecido_Por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Implementado_Em"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Integrado_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Monitorado_Por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Requerido_Por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Usada_Para_Avaliar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Usada_Para_Desenvolver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eh_Usada_Para_Proteger"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Requer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Aplicativo_Web"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tem_Valor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Aplicativo_Web"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data_De_Lancamento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Descricao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Desenvolvedores"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Framework"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Funcionalidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Linguagem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Plataforma_De_Desenvolvimento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prioridade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Publico_Alvo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Requisitos_Tecnicos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Usuarios"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Valor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Versao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acessar_Conteudo_Educacional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acessibilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adicionar_Produtos_Ao_Carrinho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adobe_Creative_Cloud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amazon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Americanas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aparencia_E_Usabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aplicativo_Web_Compras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atender_As_Necessidades_Especificas_De_Uma_Organização_Ou_Empresa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auditoria_De_Seguranca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autenticacao_De_Dois_Fatores"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Backup_E_Recuperação"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CRM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colaborar_Em_Projetos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compartilhar_Arquivos_E_Documentos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Competir_Com_Outros_Jogadores"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comprar_Itens_E_Upgrades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comunicar-se_Com_Outros_Usuarios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conectar-se_Com_Amigos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conseguir_Pontuacoes_Altas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Controle_De_Acesso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coursera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Criptografia_De_Dados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disponibilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duolingo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ERP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eficiencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Epic_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Extranet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finalizar_A_Compra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fortnite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerenciar_Pedidos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerenciar_Seu_Progresso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerenciar_Seu_Trabalho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Drive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTML"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interagir_Com_Alunos_E_Professores"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intranet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jogar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khan_Academy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#League_of_Legends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magazine_Luiza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mercado_Livre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Microsoft_Office_365"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Minecraft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PUBG_Mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pesquisar_Produtos_E_Serviços"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_De_Bots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_De_Malware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_XSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proteger_Seus_Dados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proteção_Contra_Ataques_DDoS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proteção_Contra_Ataques_De_Phishing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Realizar_Exercícios_E_Avaliações"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Receber_Feedback"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reembolsos_E_Devoluções"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roblox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ser_Acessível_E_Amigavel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ser_Escalavel_E_Adaptável"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ser_Personalizado_Com_Base_Nas_Preferências_Do_Usuario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ser_Seguro_E_Confiável"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shopee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sistema_De_E-commerce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Submarino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taxa_De_Erros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taxa_De_Transferencia_De_Dados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempo_De_Carregamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempo_De_Carregamento_Dos_Produtos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempo_De_Respost_Das_Paginas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempo_De_Resposta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFPEL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFSM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Udemy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Linguagem"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Plataforma_De_Desenvolvimento"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Requisitos_Tecnicos"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Usuarios"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funcionalidade"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funcionalidade"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funcionalidade"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Requisitos_Tecnicos"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Valor"/>
+            <Datatype abbreviatedIRI="owl:real"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organização"/>
+        <Class IRI="#Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_De_Desempenho"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_De_Seguranca"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Tecnico"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Tecnico"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Tecnico"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Prioridade"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Tecnico"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Tecnico"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Tipo"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Aplicativo_Web"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Descricao"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Acessar_Conteudo_Educacional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+        <NamedIndividual IRI="#Acessibilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Adicionar_Produtos_Ao_Carrinho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Adobe_Creative_Cloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <NamedIndividual IRI="#Adobe_Creative_Cloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Americanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <NamedIndividual IRI="#Americanas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+        <NamedIndividual IRI="#Aparencia_E_Usabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+        <NamedIndividual IRI="#Aplicativo_Web_Compras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Atender_As_Necessidades_Especificas_De_Uma_Organização_Ou_Empresa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Seguranca"/>
+        <NamedIndividual IRI="#Auditoria_De_Seguranca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Autenticacao_De_Dois_Fatores"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Seguranca"/>
+        <NamedIndividual IRI="#Backup_E_Recuperação"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#CRM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <NamedIndividual IRI="#CRM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#CSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Colaborar_Em_Projetos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Compartilhar_Arquivos_E_Documentos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Competir_Com_Outros_Jogadores"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Comprar_Itens_E_Upgrades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Comunicar-se_Com_Outros_Usuarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Conectar-se_Com_Amigos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Conseguir_Pontuacoes_Altas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Seguranca"/>
+        <NamedIndividual IRI="#Controle_De_Acesso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Coursera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <NamedIndividual IRI="#Coursera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Criptografia_De_Dados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Desempenho"/>
+        <NamedIndividual IRI="#Disponibilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Duolingo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <NamedIndividual IRI="#Duolingo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#ERP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <NamedIndividual IRI="#ERP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Edx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <NamedIndividual IRI="#Edx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+        <NamedIndividual IRI="#Eficiencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Epic_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Extranet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <NamedIndividual IRI="#Extranet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Finalizar_A_Compra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Fortnite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <NamedIndividual IRI="#Fortnite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Gerenciar_Pedidos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Gerenciar_Seu_Progresso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Gerenciar_Seu_Trabalho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Google_Drive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <NamedIndividual IRI="#Google_Drive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#HTML"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Interagir_Com_Alunos_E_Professores"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Intranet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <NamedIndividual IRI="#Intranet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Jogar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Khan_Academy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <NamedIndividual IRI="#Khan_Academy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#League_of_Legends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <NamedIndividual IRI="#League_of_Legends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#Lua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Magazine_Luiza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Mercado_Livre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <NamedIndividual IRI="#Mercado_Livre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Microsoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Microsoft_Office_365"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <NamedIndividual IRI="#Microsoft_Office_365"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Minecraft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <NamedIndividual IRI="#Minecraft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#PUBG_Mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <NamedIndividual IRI="#PUBG_Mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Pesquisar_Produtos_E_Serviços"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Portal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+        <NamedIndividual IRI="#Portal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_De_Bots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_De_Malware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Protecao_Contra_Ataques_XSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Proteger_Seus_Dados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Proteção_Contra_Ataques_DDoS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medida_De_Seguranca"/>
+        <NamedIndividual IRI="#Proteção_Contra_Ataques_De_Phishing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Realizar_Exercícios_E_Avaliações"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Receber_Feedback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Reembolsos_E_Devoluções"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Roblox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+        <NamedIndividual IRI="#Roblox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#SQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+        <NamedIndividual IRI="#SQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Ser_Acessível_E_Amigavel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Ser_Escalavel_E_Adaptável"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Ser_Personalizado_Com_Base_Nas_Preferências_Do_Usuario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funcionalidade"/>
+        <NamedIndividual IRI="#Ser_Seguro_E_Confiável"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Shopee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <NamedIndividual IRI="#Shopee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sistema"/>
+        <NamedIndividual IRI="#Sistema_De_E-commerce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Slack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <NamedIndividual IRI="#Slack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#Steam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Submarino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+        <NamedIndividual IRI="#Submarino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <NamedIndividual IRI="#Taxa_De_Erros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Desempenho"/>
+        <NamedIndividual IRI="#Taxa_De_Transferencia_De_Dados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <NamedIndividual IRI="#Tempo_De_Carregamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <NamedIndividual IRI="#Tempo_De_Carregamento_Dos_Produtos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metrica_De_Desempenho"/>
+        <NamedIndividual IRI="#Tempo_De_Respost_Das_Paginas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_De_Desempenho"/>
+        <NamedIndividual IRI="#Tempo_De_Resposta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#UFPEL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#UFRJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Organização"/>
+        <NamedIndividual IRI="#UFSM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Udemy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+        <NamedIndividual IRI="#Udemy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web"/>
+        <NamedIndividual IRI="#Zoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+        <NamedIndividual IRI="#Zoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_De_Programacao"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Eh_Usada_Para_Avaliar"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Tem_Aplicativo_Web"/>
+        <ObjectProperty IRI="#Tem_Status"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Eh_Desenvolvido_Em"/>
+        <ObjectProperty IRI="#Eh_Usada_Para_Desenvolver"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Eh_Requerido_Por"/>
+        <ObjectProperty IRI="#Requer"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Eh_Integrado_a"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Eh_Desenvolvido_Em"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Eh_Monitorado_Por"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Eh_Requerido_Por"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Eh_Usada_Para_Desenvolver"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Requer"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Tem_Aplicativo_Web"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Desenvolvido_Em"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Fornecido_Por"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Implementado_Em"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Integrado_a"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Monitorado_Por"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Requerido_Por"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Organização"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Usada_Para_Avaliar"/>
+        <Class IRI="#Metrica_De_Desempenho"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Usada_Para_Desenvolver"/>
+        <Class IRI="#Linguagem_De_Programacao"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eh_Usada_Para_Proteger"/>
+        <Class IRI="#Medida_De_Seguranca"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Requer"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Aplicativo_Web"/>
+        <Class IRI="#Organização"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+        <Class IRI="#Requisito_De_Desempenho"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+        <Class IRI="#Requisito_De_Seguranca"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Status"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tem_Valor"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Desenvolvido_Em"/>
+        <Class IRI="#Linguagem_De_Programacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Do_Tipo"/>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Fornecido_Por"/>
+        <Class IRI="#Funcionalidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Fornecido_Por"/>
+        <Class IRI="#Organização"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Integrado_a"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Monitorado_Por"/>
+        <Class IRI="#Organização"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Requerido_Por"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Um_Tipo_De"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Usada_Para_Avaliar"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Usada_Para_Desenvolver"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eh_Usada_Para_Proteger"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Requer"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Aplicativo_Web"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Prioridade"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Prioridade"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Prioridade"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:int"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+        <Class IRI="#Requisito_De_Desempenho"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+        <Class IRI="#Requisito_De_Seguranca"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Requisito_Tecnico"/>
+        <Class IRI="#Requisito_De_Usabilidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Status"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Status"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tem_Valor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#Valor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Aplicativo_Web"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Data_De_Lancamento"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Descricao"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Desenvolvedores"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Framework"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Funcionalidade"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Linguagem"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Nome"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Plataforma_De_Desenvolvimento"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Prioridade"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Publico_Alvo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Requisitos_Tecnicos"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Tipo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Url"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Usuarios"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Valor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Versao"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Aplicativo_Web"/>
+        <Class IRI="#Sistema"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data_De_Lancamento"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Funcionalidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Linguagem_De_Programacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Medida_De_Seguranca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Metrica_De_Desempenho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Sistema"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Descricao"/>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Desenvolvedores"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Framework"/>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Framework"/>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Framework"/>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Framework"/>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Framework"/>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Class IRI="#Aplicativo_Web_Compras"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Class IRI="#Aplicativo_Web_Educacional"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Class IRI="#Aplicativo_Web_Integrado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Class IRI="#Aplicativo_Web_Jogos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Class IRI="#Aplicativo_Web_Personalizado"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Linguagem"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Funcionalidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Linguagem_De_Programacao"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Medida_De_Seguranca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Metrica_De_Desempenho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Plataforma_De_Desenvolvimento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Requisito_De_Seguranca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Sistema"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nome"/>
+        <Class IRI="#Tipo_De_Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Plataforma_De_Desenvolvimento"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prioridade"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prioridade"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Publico_Alvo"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Requisitos_Tecnicos"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Requisitos_Tecnicos"/>
+        <Class IRI="#Funcionalidade"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Status"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Status"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tipo"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Tipo"/>
+        <Class IRI="#Requisito_Tecnico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Url"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Usuarios"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Valor"/>
+        <Class IRI="#Metrica_De_Desempenho"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Versao"/>
+        <Class IRI="#Aplicativo_Web"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Aplicativo_Web"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data_De_Lancamento"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Descricao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Desenvolvedores"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Framework"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Funcionalidade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Plataforma_De_Desenvolvimento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Prioridade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Publico_Alvo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Requisitos_Tecnicos"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Tipo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Usuarios"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Valor"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Versao"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aplicativo_Web</IRI>
+        <Literal>Os aplicativos web integrados ao sistema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_De_Lancamento</IRI>
+        <Literal>A data de lançamento do aplicativo web. Deve ser uma data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Descricao</IRI>
+        <Literal>Uma descrição da Classe. Pode ser uma string ou um documento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Desenvolvido_Em</IRI>
+        <Literal>Relaciona uma plataforma de desenvolvimento a um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Do_Tipo</IRI>
+        <Literal>Relaciona um requisito técnico a um tipo de requisito técnico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Fornecido_Por</IRI>
+        <Literal>Relaciona uma funcionalidade a um aplicativo web</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Implementado_Em</IRI>
+        <Literal>Relaciona uma medida de segurança a um aplicativo web e Relaciona uma linguagem de programação a um aplicativo web</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Integrado_a</IRI>
+        <Literal>Relaciona um aplicativo web integrado a um sistema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Monitorado_Por</IRI>
+        <Literal>Relaciona uma métrica de desempenho a um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Requerido_Por</IRI>
+        <Literal>Relaciona um requisito técnico a um aplicativo web</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Um_Tipo_De</IRI>
+        <Literal>Relaciona</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eh_Usada_Para_Desenvolver</IRI>
+        <Literal>Relaciona uma linguagem de programação a um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Framework</IRI>
+        <Literal>O framework usado para desenvolver o aplicativo web. Deve ser uma string.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Funcionalidade</IRI>
+        <Literal>As funcionalidades do aplicativo web. Deve ser uma lista de strings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Linguagem</IRI>
+        <Literal>A linguagem de programação usada para desenvolver o aplicativo web. Deve ser uma string.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Linguagem_De_Programacao</IRI>
+        <Literal>Representa a linguagem de programação usada para criar o aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medida_De_Seguranca</IRI>
+        <Literal>Representa uma medida de segurança que pode ser usada para proteger um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Metrica_De_Desempenho</IRI>
+        <Literal>Representa uma métrica de desempenho que pode ser usada para medir o desempenho de um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nome</IRI>
+        <Literal>O nome . Deve ser uma string.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plataforma_De_Desenvolvimento</IRI>
+        <Literal>A plataforma de desenvolvimento usada para criar o aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prioridade</IRI>
+        <Literal>A prioridade do requisito técnico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Publico_Alvo</IRI>
+        <Literal>O público-alvo do aplicativo web. Deve ser uma lista de strings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requer</IRI>
+        <Literal>Relaciona uma funcionalidade a um requisito técnico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requisito_De_Desempenho</IRI>
+        <Literal>Um tipo de requisito técnico que especifica uma métrica de desempenho que um aplicativo web deve atender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requisito_De_Seguranca</IRI>
+        <Literal>Representa um requisito de segurança que um aplicativo web deve atender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requisito_De_Usabilidade</IRI>
+        <Literal>Um tipo de requisito técnico que especifica uma usabilidade que um aplicativo web deve fornecer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requisito_Tecnico</IRI>
+        <Literal>Um requisito que um aplicativo web deve atender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Requisitos_Tecnicos</IRI>
+        <Literal>Os requisitos técnicos da classe . Deve ser uma lista de strings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sistema</IRI>
+        <Literal>Representa um sistema de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Status</IRI>
+        <Literal>O status do requisito técnico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tem_Aplicativo_Web</IRI>
+        <Literal>Relaciona um sistema a um aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tem_Prioridade</IRI>
+        <Literal>Relaciona um requisito técnico a uma prioridade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tem_Status</IRI>
+        <Literal>Relaciona um requisito técnico a um status.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tem_Valor</IRI>
+        <Literal>Relaciona uma métrica de desempenho a um valor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo</IRI>
+        <Literal>O tipo do requisito técnico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo_De_Aplicativo_Web</IRI>
+        <Literal>Representa o tipo de aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Url</IRI>
+        <Literal>A URL do aplicativo web. Deve ser uma string.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Usuarios</IRI>
+        <Literal>Os usuários do aplicativo web.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Valor</IRI>
+        <Literal>O valor da métrica de desempenho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Versao</IRI>
+        <Literal>A versão do aplicativo web. Deve ser um número.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
